@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="updated website structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
@@ -79,7 +77,8 @@
       <workItem from="1698968746945" duration="5394000" />
       <workItem from="1699032040176" duration="981000" />
       <workItem from="1699050114916" duration="2596000" />
-      <workItem from="1699060732987" duration="4972000" />
+      <workItem from="1699060732987" duration="5022000" />
+      <workItem from="1699116049532" duration="3562000" />
     </task>
     <task id="LOCAL-00001" summary="Testing stuff">
       <created>1698800326515</created>
