@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="updated website structure">
+    <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="updated about me and footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2001.html" beforeDir="false" afterPath="$PROJECT_DIR$/2001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2002.html" beforeDir="false" afterPath="$PROJECT_DIR$/2002.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3001.html" beforeDir="false" afterPath="$PROJECT_DIR$/3001.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softeng.html" beforeDir="false" afterPath="$PROJECT_DIR$/softeng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,7 @@
       <workItem from="1704315173710" duration="513000" />
       <workItem from="1705432604057" duration="1018000" />
       <workItem from="1705434713151" duration="1197000" />
-      <workItem from="1709493052603" duration="639000" />
+      <workItem from="1709493052603" duration="2395000" />
     </task>
     <task id="LOCAL-00001" summary="Testing stuff">
       <created>1698800326515</created>
@@ -153,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698889670078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated about me and footer">
+      <option name="closed" value="true" />
+      <created>1709493799033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709493799033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +187,8 @@
     <MESSAGE value="Updated title page" />
     <MESSAGE value="Updated footer" />
     <MESSAGE value="updated website structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated website structure" />
+    <MESSAGE value="updated about me and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated about me and footer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
