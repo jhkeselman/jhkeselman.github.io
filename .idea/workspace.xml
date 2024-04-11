@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="added 470x project">
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+    <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="added now reading, watching, listening cause its cool">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +18,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "assignee": "jhkeselman"
+      &quot;assignee&quot;: &quot;jhkeselman&quot;
     }
   ],
-  "lastFilter": {
-    "assignee": "jhkeselman"
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;jhkeselman&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -124,7 +124,9 @@
       <workItem from="1704315173710" duration="513000" />
       <workItem from="1705432604057" duration="1018000" />
       <workItem from="1705434713151" duration="1197000" />
-      <workItem from="1709493052603" duration="2491000" />
+      <workItem from="1709493052603" duration="2537000" />
+      <workItem from="1712802861711" duration="389000" />
+      <workItem from="1712867610854" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Testing stuff">
       <created>1698800326515</created>
@@ -178,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709495505940</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added 470x project">
+      <option name="closed" value="true" />
+      <created>1709495583294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709495583294</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added now reading, watching, listening cause its cool">
+      <option name="closed" value="true" />
+      <created>1712803245724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712803245724</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +232,8 @@
     <MESSAGE value="updated website structure" />
     <MESSAGE value="updated about me and footer" />
     <MESSAGE value="added 470x project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 470x project" />
+    <MESSAGE value="added now reading, watching, listening cause its cool" />
+    <option name="LAST_COMMIT_MESSAGE" value="added now reading, watching, listening cause its cool" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
