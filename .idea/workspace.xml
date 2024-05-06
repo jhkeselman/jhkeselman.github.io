@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="added now reading, watching, listening cause its cool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="bc76410f-9a40-4a5c-9da2-77a26548ceb5" />
+        <option name="accountId" value="7a47a98e-f584-4602-a1dc-bc128cbf047a" />
         <option name="url" value="https://github.com/jhkeselman/jhkeselman.github.io.git" />
       </UrlAndAccount>
     </option>
@@ -72,6 +73,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\jhkeselman.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jhkeselman.github.io\images" />
     </key>
   </component>
   <component name="RunManager">
