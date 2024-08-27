@@ -55,13 +55,15 @@
 								<h4>Autonomous Maze Mapping and Traversal</h4>
 								<h6>Spring 2024</h6>
 									<p>Along with two teammates, I developed code to autonomously map an unknown maze environment before solving the "kidnapped robot problem" in that environment. We programmed a Turtlebot3 Burger running Python in ROS, allowing us to easily combine classes for different functionality into an efficient final software suite.
-									To this, we started with simple controls for a differential drive bot to allow for smooth high-speed motion, before building a navigation package built around a custom A* algorithm. This algorithm was modified to find paths with both minimal distance traveled as well as maximum distance from walls, for extra safety while moving. I added an additional layer of optimization with a helper program to remove unnecessary turns, "smoothing" the A*-generated paths for faster driving and less chance of error.
-									</p>
-									<p>We then implemented SLAM using the <a href=https://wiki.ros.org/gmapping target="_blank">ROS gmapping package</a>, allowing us to easily map the environment by calculating optimal centroids for exploration and navigating to them until all unknown areas were mapped.</p>
+									To this, we started with simple controls for a differential drive bot to allow for smooth high-speed motion, before building a navigation package built around a custom A* algorithm. This algorithm was modified to find paths with both minimal distance traveled as well as maximum distance from walls, for extra safety while moving.
+									I also implement a custom pure pursuit controller for motion, essentially smoothing out the robot's path by predicting the robot's future position and adjusting its trajectory accordingly, allowing us to move faster and with less turns than other project teams.</p>
+									<p>We then implemented SLAM using the <a href=https://wiki.ros.org/gmapping target="_blank">ROS gmapping package</a>, allowing us to easily map the environment by calculating optimal centroids for exploration and navigating to them until all unknown areas were mapped. After mapping was complete, we used the <a href=https://wiki.ros.org/amcl target="_blank">AMCL</a> package with custom parameters to perform
+									localization after the robot was moved to an unknown location in the maze. Finally, we added a unique potential fields-based obstacle avoidance method to automatically detect and avoid both known and unknown obstacles during movement, allowing for avoidance of even dynamic obstacles in the workspace.</p>
 								<hr />
 
 								<h4>Task-Based Multi-Agent Dynamic Path Planning</h4>
 								<h6>Spring 2024</h6>
+									<p></p>
 								<hr />
 
 								<h4>Artificial Intelligence for Robotic Control</h4>
