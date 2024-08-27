@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0b565fc0-9130-4021-8c2e-8a7f134aef47" name="Changes" comment="added now reading, watching, listening cause its cool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;2024&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/jhkeselman.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -131,6 +132,8 @@
       <workItem from="1709493052603" duration="2537000" />
       <workItem from="1712802861711" duration="389000" />
       <workItem from="1712867610854" duration="29000" />
+      <workItem from="1724710728793" duration="1063000" />
+      <workItem from="1724723318760" duration="1891000" />
     </task>
     <task id="LOCAL-00001" summary="Testing stuff">
       <created>1698800326515</created>
