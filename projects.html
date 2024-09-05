@@ -45,13 +45,34 @@
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
+
+<!--								Add photo and link to manipulator. Also actual details on the setup-->
+								<h4>7-DOF Robotic Manipulator Simulator</h4>
+								<h6>Spring 2024</h6>
+									<p><span class="image right"><img src="images/501arm.png" alt="501 Arm" width="1228" height=auto></span>I worked in a 4-person team to develop a MATLAB-based simulation of a PUMA 560 industrial manipulator. The Puma 560 manipulator is 6-DOF arm, giving us a realistic model of a common industrial manipulator. We used an URDF file as well as research papers using this arm to develop a kinematics and dynamics model of the arm in MATLAB. For movement calculations, we used the Product of Exponentials formula for forward kinematics and the Recursive Newton-Euler method for dynamics. This gave us fine control over the motion at each joint, as well as the torque required to safely move the arm under a load.</p>
+									<p>For our simulation, we used the MATLAB app designer to construct a simple control system. One window provided users the ability to enter desired end-effector position and orientation, as well as a simualated load representing an object held by the arm. A second window showed a real-time simulation of the arm, as well as plots showing joint states throughout motion.
+									While simple, this simulation gave me a experience developing motion control for an industry-level manipulator while also serving as an introduction to useful tools such as the MATLAB app designer, URDF files, and Peter Corke's Robotics Toolbox.</p>
+								<a href=https://github.com/jhkeselman/RBE501_MP2 target="_blank" class="button primary small">Check out our code</a>
+								<hr />
+
+								<h4>Autonomous Maze Mapping and Traversal</h4>
+								<h6>Spring 2024</h6>
+									<p><span class="image left"><img src="images/3002.png" alt="3002" width=auto height="364"></span>Along with two teammates, I developed code to autonomously map an unknown maze environment before solving the "kidnapped robot problem" in that environment. We programmed a Turtlebot3 Burger running Python in ROS, allowing us to easily combine classes for different functionality into an efficient final software suite.
+									To this, we started with simple controls for a differential drive bot to allow for smooth high-speed motion, before building a navigation package built around a custom A* algorithm. This algorithm was modified to find paths with both minimal distance traveled as well as maximum distance from walls, for extra safety while moving.
+									I also implement a custom pure pursuit controller for motion, essentially smoothing out the robot's path by predicting the robot's future position and adjusting its trajectory accordingly, allowing us to move faster and with less turns than other project teams.</p>
+									<p>We then implemented SLAM using the <a href=https://wiki.ros.org/gmapping target="_blank">ROS gmapping package</a>, allowing us to easily map the environment by calculating optimal centroids for exploration and navigating to them until all unknown areas were mapped. After mapping was complete, we used the <a href=https://wiki.ros.org/amcl target="_blank">AMCL</a> package with custom parameters to perform
+									localization after the robot was moved to an unknown location in the maze. Finally, we added a unique potential fields-based obstacle avoidance method to automatically detect and avoid both known and unknown obstacles during movement, allowing for avoidance of even dynamic obstacles in the workspace.</p>
+								<a href=https://drive.google.com/file/d/19WxgaIDXbzHdo6H9sXRqly8WpXgV_bpL/view?usp=sharing target="_blank" class="button primary small">Read more</a>
+								<a href=https://github.com/RBE300X-Lab/RBE3002_D24_Team01 target="_blank" class="button primary small">Check out our code</a>
+								<a href=https://drive.google.com/file/d/1eMRLfIOi2aR-HX6IQTjtH45H56DSki-6/view?usp=sharing target="_blank" class="button primary small">See if in action</a>
+								<hr />
+
 								<h4>Artificial Intelligence for Robotic Control</h4>
 								<h6>Winter 2024</h6>
 									<p><span class="image right"><img src="images/470x.png" alt="Bomberman" width=auto height="364"></span>I worked in a team of three to develop control code for a robot navigating a complex
 									environment based on the arcade game <a href=https://en.wikipedia.org/wiki/Super_Bomberman target="_blank">"Bomberman."</a> This involved the implementation and testing of various AI algorithms including Minimax,
 										Expectimax, and Approximate Q-Learning. We also developed a finite state machine framework, as well as a custom A* implementation, to assist in our character's navigation. This project spanned a variety of difficulty levels,
 										with project variants introducing additional obstacles and enemies into the game space, requiring us to optimize our code to succeed in these more difficult scenarios.</a> </p>
-<!--									<a href=softeng.html class="button primary small">Explore the App</a>-->
 								<a href=https://github.com/jhkeselman/RBE470x-project_team01 target="_blank" class="button primary small">Check out our code</a>
 								<hr />
 
@@ -136,7 +157,7 @@
 							<li><a href=https://github.com/jhkeselman target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href=https://www.linkedin.com/in/josh-keselman/ target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="mailto: jhkeselman@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href=https://drive.google.com/file/d/1mMtGePTp7D_hEA0e9hTSaJcLvV6JT791/view?usp=sharing target="_blank" class="icon solid fa-project-diagram"><span class="label">Resume</span></a></li>
+							<li><a href=https://drive.google.com/file/d/1PR1topm_V0SrnQemuQV_cyTN3iAYuGoN/view?usp=sharing target="_blank" class="icon solid fa-project-diagram"><span class="label">Resume</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Josh Keselman</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
