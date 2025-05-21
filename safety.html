@@ -6,11 +6,50 @@
 -->
 <html>
 	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
+		<title>CBFs for Manipulator Control</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.media-section {
+				margin-top: 20px;
+			}
+
+			figure {
+				margin: 0;
+				padding: 10px;
+				text-align: center;
+			}
+
+			figcaption {
+				font-size: 0.9em;
+				color: #555;
+				margin-top: 8px;
+			}
+
+			.full-width img {
+				width: 100%;
+				height: auto;
+			}
+
+			.video-row {
+				display: flex;
+				gap: 20px;
+				justify-content: center;
+				flex-wrap: wrap; /* makes it stack on narrow screens */
+			}
+
+			.video-row video {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+			}
+			.video-row figure {
+				flex: 1 1 45%;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,24 +79,43 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Generic Page</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+							<h2>Control Barrier Functions for Manipulator Control</h2>
+							<p>Balancing information and expected rewards during swarm foraging</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
+								<p>Our team explored the usage of control barrier functions (CBF) for ensuring safe movement of a robotic manipulator while following a specified trajectory. CBFs are powerful tools for enforcing state constraints on dynamical systems, and can be used to minimally modify nominal controllers to ensure both desired motion and safety. We used CBFs to enforce <a href="https://www.universal-robots.com/articles/ur/application-installation/what-is-a-singularity/" target="_blank">singularity</a> avoidance, as well as prevent joints from rotating past safe positions. In addition to testing in simulation, we used ROS2 to test our approach on a real-world <a href="https://www.robotis.us/openmanipulator-x-rm-x52-tnm/" target="_blank">Dynamixel OpenMANIPULATOR-X</a> 4-DOF manipulator. Check out more technical details in the below report!</p>
+								<iframe src="https://drive.google.com/file/d/1pY7Mf75mkFr0eTrlwAM0MdFYFpmFfnDQ/preview" width="100%" height="800" allow="autoplay"></iframe>
+								<div class="media-section">
+									<figure class="full-width">
+										<img src="images/safetyarm.jpg" alt="Experimental Setup">
+										<figcaption>Figure 1: Dynamixel Arm</figcaption>
+									</figure>
+									<figure>
+										<video controls autoplay muted loop>
+											<source src="images/safetysing.mov" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<figcaption>Figure 2: Trajectory Following without Singularity Avoidance</figcaption>
+										</figure>
+									<div class="video-row">
+										<figure>
+										<video controls autoplay muted loop>
+											<source src="images/safety1.mov" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<figcaption>Figure 3: Trajectory Following with Minimal Singularity Avoidance</figcaption>
+										</figure>
 
-								<h3>Lorem ipsum dolor</h3>
-								<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-
-								<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-								<hr />
-
-								<h4>Feugiat aliquam</h4>
-								<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-
-								<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
-
+										<figure>
+										<video controls autoplay muted loop>
+											<source src="images/safety5.mov" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<figcaption>Figure 4: Trajectory Following with Aggressive Singularity Avoidance</figcaption>
+										</figure>
+									</div>
+								</div>
 							</div>
 						</section>
 					</article>
@@ -66,15 +124,15 @@
 					<footer id="footer">
 						<header>
 							<h2>Contact</h2>
-							<p>Worcester, MA, 01609<br />
-								Personal: jhkeselman[at]gmail[dot]com<br />
-								School: jhkeselman[at]wpi[dot]edu<br />(781) 690-9688</p>
+							<p>Needham, MA, 02492<br />
+							Personal: jhkeselman[at]gmail[dot]com<br />
+							School: jhkeselman[at]wpi[dot]edu<br />(781) 690-9688</p>
 						</header>
 						<ul class="icons">
 							<li><a href=https://github.com/jhkeselman target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href=https://www.linkedin.com/in/josh-keselman/ target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="mailto: jhkeselman@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<li><a href=https://drive.google.com/file/d/1-QCVSgb8l79FwpSAaE6Dok5LscouFDxk/view?usp=sharing target="_blank" class="icon solid fa-project-diagram"><span class="label">Resume</span></a></li>
+							<li><a href=https://docs.google.com/document/d/1rzuc6eJGkbE1H7ZjzeGleO7w1U3SDBs2OeDgv4zPTEQ/edit?usp=sharing target="_blank" class="icon solid fa-project-diagram"><span class="label">Resume</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Josh Keselman</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
