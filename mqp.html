@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cleaning Ocean Plastics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.media-section {
+				margin-top: 20px;
+			}
+
+			figure {
+				margin: 0;
+				padding: 10px;
+				text-align: center;
+			}
+
+			figcaption {
+				font-size: 0.9em;
+				color: #555;
+				margin-top: 8px;
+			}
+
+			.full-width img {
+				width: 100%;
+				height: auto;
+			}
+
+			.video-row {
+				display: flex;
+				gap: 20px;
+				justify-content: center;
+				flex-wrap: wrap; /* makes it stack on narrow screens */
+			}
+
+			.video-row video {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+			}
+			.video-row figure {
+				flex: 1 1 45%;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Josh Keselman</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="aboutme.html">About Me</a></li>
+											<li><a href="work.html">Work</a></li>
+											<li><a href="projects.html">Projects</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>The Design and Prototyping of a Low-Cost & Efficient Ocean Cleanup Robot</h2>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+								<p><span class="image left"><img src="images/mqpbottrash.jpg" alt="MQP Bot with Trash" width="1228" height=auto></span>An estimated 11 million tons of plastic waste entered the oceans last year, joining the 200 million tons already crowding Earth’s waterways, per Ocean Conservancy. This waste poses a significant health risk to both humans and marine wildlife. Existing robotic systems for combatting plastic waste are expensive and require significant human support, preventing the kind of large-scale operation needed to combat waste accumulation.</p>
+								<div style="clear: both;"></div>
+								<p><span class="image right" style="max-width: 300px; float: right; margin-left: 20px;">
+										<video controls autoplay muted loop style="width: 100%; height: auto;">
+										<source src="images/mqpvideo.mp4" type="video/mp4">
+										Your browser does not support the video tag.
+										</video>
+									</span>Your browser does not support the video tag.</video></span>Our project aimed to develop a functional and robust prototype of an autonomous aquatic vehicle for ocean trash collection, with the hope that future iterations of this project could expand our design and develop a plan for mass production. We built a custom catamaran-inspired design featuring two large pontoons attached to a central hull, which contained a mesh net for passive trash collection and our central electronics enclosure. We used a Raspberry Pi 5 for our main controller with an ESP32 and ESCs to control our two brushless DC motors</p>
+								<p><span class="image left"><img src="images/mqpvision.png" alt="Vision Output" width="1228" height=auto></span>I worked on setting up our core ROS2 architecture and control system, including developing both our teleoperative motor controller and our autonomous navigation system. I also was the sole developer of our custom vision pipeline, using the Ultralytics <a href="https://docs.ultralytics.com/" target="_blank">YOLO12</a> library with a custom model trained with images collected from the robot's on-board camera during live testing. I was also a lead author and editor on our final technical report, helping set our style guide and writing a significant portion of our background, software, and results sections.</p>
+								<img src="images/MQP_poster.jpg" width="100%" alt="MQP Poster">
+								<div style="text-align: center; margin-top: 20px;">
+									<a href="https://drive.google.com/file/d/16_lsCpmpW4dGryGTOf28eck087ztM0HA/view?usp=sharing" target="_blank" class="button primary small">Read our full report</a>
+									<a href="https://github.com/jhkeselman/cleaningoceanplastics" target="_blank" class="button primary small">Check out our code</a>
+								</div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<header>
+							<h2>Contact</h2>
+							<p>Needham, MA, 02492<br />
+							Personal: jhkeselman[at]gmail[dot]com<br />
+							School: jhkeselman[at]wpi[dot]edu<br />(781) 690-9688</p>
+						</header>
+						<ul class="icons">
+							<li><a href=https://github.com/jhkeselman target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href=https://www.linkedin.com/in/josh-keselman/ target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto: jhkeselman@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href=https://docs.google.com/document/d/1rzuc6eJGkbE1H7ZjzeGleO7w1U3SDBs2OeDgv4zPTEQ/edit?usp=sharing target="_blank" class="icon solid fa-project-diagram"><span class="label">Resume</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Josh Keselman</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
