@@ -6,11 +6,50 @@
 -->
 <html>
 	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
+		<title>Foraging with Swarm Robotics</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.media-section {
+				margin-top: 20px;
+			}
+
+			figure {
+				margin: 0;
+				padding: 10px;
+				text-align: center;
+			}
+
+			figcaption {
+				font-size: 0.9em;
+				color: #555;
+				margin-top: 8px;
+			}
+
+			.full-width img {
+				width: 100%;
+				height: auto;
+			}
+
+			.video-row {
+				display: flex;
+				gap: 20px;
+				justify-content: center;
+				flex-wrap: wrap; /* makes it stack on narrow screens */
+			}
+
+			.video-row video {
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+			}
+			.video-row figure {
+				flex: 1 1 45%;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -40,15 +79,36 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Swarm Robotics Final Project</h2>
-							<p>Information vs. Reward Algorithm Implementation For Swarm Foraging</p>
+							<h2>Foraging with Swarm Robotics</h2>
+							<p>Balancing information and expected rewards during swarm foraging</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-								<p>In this project, I explored how robotic agents operating in a swarm must balance known rewards with value of known information while performing foraging. The algorithm controls agent behavior during foraging and task completion, aiming to maximize rewards gathered while ensuring agents have up-to-date information about their environment and potential rewards. I then compared performance with the algorithm to a series of balance approaches using a custom <a href="https://www.argos-sim.info/">ARGoS</a> simulation.</p>
-								<img src="images/swarmsetup.jpg" width="400px" alt="Experimental Setup">
+								<p>In this project, I explored how robotic agents operating in a swarm must balance known rewards with the value of current information while performing foraging. The algorithm controls agent behavior during foraging and task completion, aiming to maximize rewards gathered while ensuring agents have up-to-date information about their environment and potential rewards. I then compared performance with the algorithm to a series of balance approaches using a custom <a href="https://www.argos-sim.info/">ARGoS</a> simulation.</p>
 								<iframe src="https://drive.google.com/file/d/1V-nQchTz6UGo--3Or-SLZvryo1149k27/preview" width="100%" height="800" allow="autoplay"></iframe>
-								<a href="https://drive.google.com/uc?export=download&id=1V-nQchTz6UGo--3Or-SLZvryo1149k27" class="button primary small" download>Download our report</a>
+								<div class="media-section">
+									<figure class="full-width">
+										<img src="images/swarmsetup.jpg" alt="Experimental Setup">
+										<figcaption>Figure 1: Experimental Setup</figcaption>
+									</figure>
+									<div class="video-row">
+										<figure>
+										<video controls autoplay muted loop>
+											<source src="images/swarmbaseline.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<figcaption>Figure 2: Baseline Swarm Behavior</figcaption>
+										</figure>
+
+										<figure>
+										<video controls autoplay muted loop>
+											<source src="images/swarmdemo.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+										<figcaption>Figure 3: Algorithm-Driven Swarm Behavior</figcaption>
+										</figure>
+									</div>
+								</div>
 							</div>
 						</section>
 					</article>
